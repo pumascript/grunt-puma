@@ -1,0 +1,42 @@
+{
+    "name": "grunt-puma",
+    "version": "0.0.1",
+    "description": "Grunt task that runs PumaScript on any JavaScript file",
+    "repository": {
+        "type": "git",
+        "url": "pumascript/grunt-puma.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pumascript/grunt-puma/issues"
+    },
+    "author": {
+        "name": "PumaScript Team",
+        "url": "http://github.com/pumascript/grunt-puma"
+    },
+    "keywords": [
+        "grunt",
+        "gruntplugin",
+        "optimization",
+        "meta-programming",
+        "metaprogramming",
+        "ecma",
+        "ecmascript",
+        "javascript",
+        "puma"
+    ],
+    "main": "task/puma.js",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "pumascript": "*"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "load-grunt-tasks": "~3.1.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    }
+}
