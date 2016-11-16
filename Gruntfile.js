@@ -19,11 +19,22 @@ module.exports = function (grunt) {
                     ]
                 }
             }
+        },
+
+        eslint: {
+            target: [
+                'tasks/**/*.js',
+                'Gruntfile.js',
+                'tests/**/*.js',
+                '!tests/tmp/**/*.js',
+                '!tests/files/**/*.js'
+            ]
         }
     });
 
     // Actually load this plugin's task(s).
     grunt.loadTasks('tasks');
 
-    grunt.registerTask('default', ['puma']);
+    grunt.registerTask('travis', ['eslint']);
+    grunt.registerTask('default', ['eslint', 'puma']);
 };

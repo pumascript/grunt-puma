@@ -9,7 +9,7 @@ module.exports = function (grunt) {
         // Iterate over all specified files in gruntfile.
         this.files.forEach(function (file) {
             var res = '';
-            file.src.filter(function(filepath){
+            file.src.filter(function (filepath) {
                 //Concatenate them
                 res += grunt.file.read(filepath);
             });
@@ -26,5 +26,4 @@ module.exports = function (grunt) {
             grunt.log.writeln('File with the result of PumaScript: "' + file.dest + '" was created.');
         });
     });
-
 };

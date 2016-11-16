@@ -16,6 +16,8 @@
     "keywords": [
         "grunt",
         "gruntplugin",
+        "grunt task",
+        "task",
         "optimization",
         "meta-programming",
         "metaprogramming",
@@ -33,8 +35,9 @@
         "pumascript": "^0.0.1"
     },
     "devDependencies": {
-        "grunt": "~0.4.5",
-        "load-grunt-tasks": "~3.1.0"
+        "grunt": "^0.4.5",
+        "load-grunt-tasks": "^3.1.0",
+        "grunt-eslint": "^18.0.0"
     },
     "scripts": {
         "test": "grunt test"
