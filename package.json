@@ -24,15 +24,16 @@
         "ecma",
         "ecmascript",
         "javascript",
-        "puma"
+        "puma",
+        "pumascript"
     ],
-    "main": "task/puma.js",
+    "main": "tasks/puma.js",
     "engines": {
         "node": ">= 0.8.0"
     },
     "license": "MIT",
     "dependencies": {
-        "pumascript": "^0.0.1"
+        "pumascript": "^0.1.0"
     },
     "devDependencies": {
         "grunt": "^0.4.5",
