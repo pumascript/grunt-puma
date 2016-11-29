@@ -14,8 +14,8 @@ module.exports = function (grunt) {
                 options: {},
                 files: {
                     'tests/tmp/result.js': [
-                        'tests/tmp/files/puma-test.js',
-                        'tests/tmp/files/puma-test2.js'
+                        'tests/files/puma-test.js',
+                        'tests/files/puma-test2.js'
                     ]
                 }
             }
