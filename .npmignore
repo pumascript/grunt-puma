@@ -1,0 +1,7 @@
+# test folder
+tests/
+
+# configuration and tasks files
+.eslintrc.json
+.travis.yml
+Gruntfile.js
